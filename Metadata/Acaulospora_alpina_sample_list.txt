@@ -1,0 +1,10 @@
+id	paper_id	primers	longitude	latitude	continent	sample_type	marker_size	Biome	MAT	MAP	pH	year_of_sampling	plants_dominant	target_gene	sequencing_platform	abundances
+87	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	17.8503	48.9404	Europe	soil	30925	grassland	8.1	665	5.25	2013	NA_	ITS2	Illumina	2
+105	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	16.2164	49.1564	Europe	soil	24618	grassland	9.1	488	5.77	2013	NA_	ITS2	Illumina	4
+110	Rezacova_2021_1HU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4	14.6442	50.5714	Europe	root	20415	grassland	8.6	577	5.47	2018	Arrhenatherum elatius	ITS2	Illumina	1
+179	Rezacova_2021_1HU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4	14.6364	50.0861	Europe	topsoil	20641	grassland	9.1	563	5.37	2018	Solidago canadensis	ITS2	Illumina	1
+227	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	16.1148	49.0526	Europe	soil	17192	grassland	9	499	7.06	2013	NA_	ITS2	Illumina	1
+235	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	17.5173	49.9863	Europe	soil	32727	grassland	6.8	851	5.02	2013	NA_	ITS2	Illumina	1
+430	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	17.7571	49.0885	Europe	soil	26176	grassland	8.8	709	5.56	2013	NA_	ITS2	Illumina	5
+440	Rezacova_2019_1CU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4 	17.9808	49.4158	Europe	soil	10225	grassland	8.6	770	5.73	2013	NA_	ITS2	Illumina	1
+511	Rezacova_2021_1HU	SSUmAf1+2/LSUmAr1 to 4 then 5.8Snew/ITS4	14.2792	50.0853	Europe	root	15267	grassland	8.4	507	7.1	2018	Arrhenatherum elatius	ITS2	Illumina	1

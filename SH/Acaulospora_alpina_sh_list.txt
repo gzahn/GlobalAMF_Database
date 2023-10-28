@@ -1,0 +1,2 @@
+accession	marker	Kingdom	Phylum	Class	Order	Family	Genus	Species
+SH0977625.09FU	ITS2	Fungi	Glomeromycota	Glomeromycetes	Diversisporales	Acaulosporaceae	Acaulospora	Acaulospora alpina
