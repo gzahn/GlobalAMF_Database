@@ -4,13 +4,13 @@ library(phyloseq) # for last bit
 
 # find files
 sh_files <- 
-list.files("/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/SH",
+list.files("./SH",
            full.names = TRUE, pattern = "sh_list.txt$")
 fasta_files <- 
-list.files("/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/Fasta",
+list.files("./Fasta",
            full.names = TRUE, pattern = ".fas$")
 metadata_files <- 
-list.files("/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/Metadata",
+list.files("./Metadata",
            full.names = TRUE, pattern = "_sample_list.txt$")
 
 
@@ -65,7 +65,7 @@ for(i in seq_along(metadata_files)){
 species_data_list %>% map("Species") %>% map_chr(unique) # should be all species
 
 #save intermediate file (it's rather large and unwieldy)
-saveRDS(species_data_list,"/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/species_data_list.RDS")
+saveRDS(species_data_list,"./species_data_list.RDS")
 
 # pull them all into one big data frame
 df <- purrr::reduce(species_data_list,full_join)
@@ -80,9 +80,9 @@ df %>%
   scale_color_viridis_d()
 
 # save that file
-saveRDS(df,"/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/full_database_df.RDS")
+saveRDS(df,"./full_database_df.RDS")
 #reload point
-df <- readRDS("/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/full_database_df.RDS")
+df <- readRDS("./full_database_df.RDS")
 
 # build phyloseq object for downstream microbiome work
 
@@ -174,4 +174,4 @@ ps@sam_data
 ps@tax_table
 
 # save object as RDS
-saveRDS(ps,"/home/gzahn/Desktop/GIT_REPOSITORIES/GlobalAMF_Database/ps_object_not_cleaned.RDS")
+saveRDS(ps,"./ps_object_not_cleaned.RDS")
